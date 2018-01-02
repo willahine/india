@@ -262,11 +262,12 @@
 					<h2 class="name gray">Use Direct Benefit Transfer to deliver cash subsidies</h2>
 					<p class="status">In Progress</p>
 					<p class="difficulty">DIFFICULTY: Medium</p>
-					<p class="desc">Direct cash payments programs, such as pensions, should employ Direct Benefit Transfers to send funds to recipients.</p>
+					<p class="desc">Direct cash payments programs, such as pensions, should employ Direct Benefit Transfers to send funds to recipients.
+	</p>
 				</div>
 
 				<div class="info-text"><p>The government has introduced a <a href="https://dbtbharat.gov.in/" target="_blank">dedicated portal</a> tracking its efforts to transition to DBT.</p>
-				</div>
+					</div>
 
 			</div>
 
@@ -838,13 +839,17 @@
 
 
 <div id="copyright">
+	<p>India Reforms is a product of the <a href="https://www.csis.org/programs/dracopoulos-ideas-lab" target="_blank">Andreas C. Dracopoulos iDeas Lab</a>, the in-house digital, multimedia, and design agency at the Center for Strategic and International Studies.</p>
 
-	<p>© The Center for Strategic and International Studies 2016 | <a href="#csis">Back to top</a></p>
+	<p>© The Center for Strategic and International Studies <span class="copyright-year"></span> | <a href="#csis">Back to top</a></p>
 
 </div>
 
 		<script type="text/javascript">
 $( document ).ready( function() {
+	// Update Year
+	$('.copyright-year').text(new Date().getFullYear())
+
   // init Isotope
   var $container = $('.policycontainer').isotope({
     itemSelector: '.policy',
