@@ -555,7 +555,8 @@
 				<div class="info-text">
 
 					<p><a href="http://dipp.nic.in/sites/default/files/pn3_2016_0.pdf" target="_blank">Press Note 3 of 2016</a> clarified that FDI is not allowed in business-to-consumer e-commerce, unless items are all being sold under a single brand and meet local-content
-						requirements.</p>
+						requirements.
+					</p>
 
 				</div>
 
@@ -917,6 +918,8 @@
 			var $container = $('.policycontainer').isotope({
 				itemSelector: '.policy',
 				layoutMode: 'fitRows',
+				sortBy: 'status',
+				sortAscending: false,
 				getSortData: {
 					name: '.name',
 					status: '.status',
