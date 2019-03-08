@@ -2,12 +2,22 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>The Modi Government Reforms Scorecard</title>
-	<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+	<script src="https://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
 	<script src="js/isotope.pkgd.min.js" type="text/javascript"></script>
 
 	<!-- Add fancyBox main JS and CSS files -->
-	<link rel="stylesheet" type="text/css" href="jquery.fancybox.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/js/jquery.fancybox.css" media="screen" />
 	<script type="text/javascript" src="jquery.fancybox.pack.js"></script>
+	<link rel="stylesheet" href="/js/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/js/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="/js/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+
 
 	<link rel="stylesheet" href="font-awesome-4.6.2 2/css/font-awesome.min.css" type="text/css">
 		<link rel="stylesheet" href="font-awesome-4.6.2 2/css/font-awesome.css" type="text/css">
@@ -18,7 +28,6 @@
 
 	<script src="https://use.typekit.net/bvk0mln.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
-
 
 
 <meta name="description" content="The Reforms scorecard is a list of 29 big economic reforms that India's Narendra Modi confronted when he took office, and the status of each."/>
@@ -43,16 +52,8 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-70098597-1', 'auto');
   ga('send', 'pageview');
-
-</script>
-
-<script type="text/javascript">
-	$(document).ready(function() {
-		$(".fancybox").fancybox();
-	});
 </script>
 
 </head>
@@ -74,17 +75,17 @@
 
 		<div id="site-description">
 
-			<iframe src="https://player.vimeo.com/video/157306158?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<iframe width="640" height="360" src="https://www.youtube.com/embed/JL5oEXngen4?rel=0" frameborder="0" allowfullscreen></iframe>
 
 		<p class="indepth">Pundits sometimes act as if “economic reforms” are a light switch that India’s central government can turn on and off.  In reality, the process of reforming the economy is nuanced, involving a diverse set of issues and actors.  The following scorecard is a list of thirty big reforms that the Modi government confronted when it took office, and the status of each. Such a list can never be absolutely definitive, and <a href="#feedback-form">we welcome the feedback of others</a>. We hope this list helps the public understand the choices that are on the table, and that each reform will move at an independent pace. This scorecard will be updated on a monthly basis as we see tangible progress on individual reforms.</p>
 
-		<p class="indepth"><a href="mailto:indiareforms@csis.org">Contact the Wadhwani Chair.</a></p>
+		<p class="indepth"><a href="https://www.csis.org/programs/wadhwani-chair-us-india-policy-studies" target="_blank">To Learn More About the Wadhwani Chair.</a></p>
 
 	<p class="indepth">
 	<a id="social-links" href="https://twitter.com/home?status=Check%20out%20the%20%40CSISIndiaChair's%20scorecard%20on%20Modi's%20economic%20reforms%20in%20India%20http%3A//indiareforms.csis.org"><img src="img/twitter.png" /></a>
 	<a id="social-links" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.csis.org/india/india.html"><img src="img/facebook.png" /></a>
 	&nbsp;&nbsp;
-	<a id="social-links" href="http://csis.informz.net/CSIS/profile.asp?fid=3578"><img src="img/email.png" /></a>
+	<a id="social-links" href="mailto:indiareforms@csis.org"><img src="img/email.png" /></a>
 </p>
 
 	<hr />
@@ -122,9 +123,13 @@
 
 			<ul>
 
-		<li><div id="blue_key"></div><p style="float: left; margin: -1px 5px 0">Completed&nbsp;&nbsp;&nbsp;</p></li>
-		<li><div id="red_key"></div><p style="float: left; margin: -1px 5px 0">Incomplete&nbsp;&nbsp;&nbsp;</p></li>
-		<li><div id="gray_key"></div><p style="float: left; margin: -1px 5px 0">In progress/partial success&nbsp;&nbsp;&nbsp;</p></li>
+		<li><div id="blue_key"></div><p>Completed&nbsp;&nbsp;&nbsp;</p></li>
+		<li><div id="red_key"></div><p>Incomplete&nbsp;&nbsp;&nbsp;</p></li>
+		<li><div id="gray_key"></div><p>In progress/partial success&nbsp;&nbsp;&nbsp;</p></li>
+		<li>&nbsp;</li>
+		<li>&nbsp;</li>
+		<li><p style="margin: -1px -8px 0"><i class="fa fa-line-chart"></i> Graphic&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></li>
+		<li><p><i class="fa fa-play"></i> Video/Audio</p></li>
 
 			</ul>
 
@@ -139,14 +144,15 @@
 
 			<div class="policy food telecom energy industry structure retail services defense money">
 				<div class="first">
-					<h2 class="name" id="red">Create a unified national tax on goods & services</h2>
-						<p class="status">Incomplete</p>
+					<h2 class="name blue">Create a unified national tax on goods &amp; services</h2>
+						<p class="status">Complete</p>
 						<p class="difficulty">DIFFICULTY: High</p>
-						<p class="desc">Will combine most of India’s state and local taxes into a streamlined tax system.</p>
-						<i class="fa fa-play"></i>
+						<p class="desc">Will combine most of India's state and local taxes into a streamlined tax system.</p>
+
 				</div>
 
-				<div class="info-text"><p>A <a href="http://www.gstindia.com/wp-content/uploads/2015/12/model_gst_act_2016_draft.pdf" target="_blank">draft</a> of the model law is in circulation, but the Rajya Sabha has yet to vote on the necessary constitutional <a href="http://www.prsindia.org/uploads/media/Constitution%20122nd/Constitution%20%28122%29%20as%20passed%20by%20LS.pdf">amendment.</a> <iframe src="https://player.vimeo.com/video/170038024?title=0&byline=0&portrait=0" width="90%" height="auto" style="padding-top:10px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p></div>
+					<div class="info-text"><p>The Goods and Services Tax went into effect nationwide on July 1, creating India's first-ever national market and replacing most state and federal taxes.</p></div>
+
 
 			</div>
 
@@ -159,14 +165,14 @@
 			<div class="policy telecom energy industry structure market retail services money defense">
 				<div class="first">
 
-			<h2 class="name" id="gray">End retrospective taxation of cross-border investments</h2>
+			<h2 class="name gray">End retrospective taxation of cross-border investments</h2>
 			<p class="status">In Progress</p>
 			<p class="difficulty">DIFFICULTY: Medium</p>
 			<p class="desc">Eliminate the Revenue Department’s ability to retrospectively apply new tax laws. This provision, introduced in 2012, creates uncertainty for foreign investors.</p>
 
 				</div>
 
-				<div class="info-text"><p>In his February 29 <a href="http://indiabudget.nic.in/ub2016-17/bs/bs.pdf">Budget Speech</a>Finance Minister Jaitley announced that the Revenue Secretary would chair a high-level committee that had to approve all retrospective tax demands and offered a one-time dispute resolution opportunity for parties to current cases.</p></div>
+				<div class="info-text"><p>In his February 29 <a href="http://indiabudget.nic.in/ub2016-17/bs/bs.pdf">Budget Speech</a> Finance Minister Jaitley announced that the Revenue Secretary would chair a high-level committee that had to approve all retrospective tax demands and offered a one-time dispute resolution opportunity for parties to current cases.</p></div>
 			</div>
 
 
@@ -179,7 +185,7 @@
 
 				<div class="first">
 
-					<h2 class="name" id="blue">Deregulate Diesel Pricing</h2>
+					<h2 class="name blue">Deregulate Diesel Pricing</h2>
 					<p class="status">Complete</p>
 					<p class="difficulty">DIFFICULTY: Medium</p>
 
@@ -199,7 +205,7 @@
 
 				<div class="first">
 
-					<h2 class="name" id="gray">Deregulate Natural Gas Pricing</h2>
+					<h2 class="name gray">Deregulate Natural Gas Pricing</h2>
 					<p class="status">In Progress</p>
 					<p class="difficulty">DIFFICULTY: Medium</p>
 					<p class="desc">Deregulating natural gas pricing will encourage the expansion of private hydrocarbon production.</p>
@@ -217,13 +223,17 @@
 
 			<div class="policy energy money">
 
+				<div class="first">
 
-					<h2 class="name" id="red">Deregulate Kerosene Pricing</h2>
+					<h2 class="name red">Deregulate Kerosene Pricing</h2>
 					<p class="status">Incomplete</p>
 					<p class="difficulty">DIFFICULTY: High</p>
 					<p class="desc">Deregulating kerosene pricing will lower government subsidies and also encourage the expansion of private hydrocarbon production.</p>
 
-
+				</div>
+				<div class="info-text">
+					<p>The central government <a href="http://economictimes.indiatimes.com/industry/energy/oil-gas/after-diesel-and-lpg-government-to-now-end-subsidy-on-kerosene/articleshow/59888617.cms" target="_blank">has ordered</a> state oil companies to continue to raise the subsidized price of kerosene each month until the subsidy is eliminated. </p>
+				</div>
 
 			</div>
 
@@ -233,7 +243,7 @@
 
 			<div class="policy food money">
 
-				<h2 class="name" id="red">Remove government-mandated minimum prices for agricultural goods</h2>
+				<h2 class="name red">Remove government-mandated minimum prices for agricultural goods</h2>
 				<p class="status">Incomplete</p>
 				<p class="difficulty">DIFFICULTY: High</p>
 
@@ -249,14 +259,14 @@
 
 				<div class="first">
 
-					<h2 class="name" id="gray">Use Direct Benefit Transfer to deliver cash subsidies</h2>
+					<h2 class="name gray">Use Direct Benefit Transfer to deliver cash subsidies</h2>
 					<p class="status">In Progress</p>
 					<p class="difficulty">DIFFICULTY: Medium</p>
 					<p class="desc">Direct cash payments programs, such as pensions, should employ Direct Benefit Transfers to send funds to recipients.
 	</p>
 				</div>
 
-					<div class="info-text"><p>On 3/16 Parliament enacted the <a href="http://164.100.47.4/BillsTexts/LSBillTexts/PassedLoksabha/47C_2016_LS_Eng.pdf">Aadhaar Bill</a>, which allows the government to require that those receiving government subsidies possess a unique ID number, facilitating a switch to cash rather than goods transfers.</p>
+				<div class="info-text"><p>The government has introduced a <a href="https://dbtbharat.gov.in/" target="_blank">dedicated portal</a> tracking its efforts to transition to DBT.</p>
 					</div>
 
 			</div>
@@ -269,14 +279,14 @@
 
 				<div class="first">
 
-				<h2 class="name" id="gray">Use Direct Benefit Transfer to deliver goods subsidies</h2>
+				<h2 class="name gray">Use Direct Benefit Transfer to deliver goods subsidies</h2>
 				<p class="status">In Progress</p>
 				<p class="difficulty">DIFFICULTY: High</p>
 				<p class="desc">Programs where the government broadly subsidizes goods for targeted groups should be shifted to Direct Benefit Transfer programs to strengthen targeting and reduce diversion.</p>
 
 				</div>
 
-				<div class="info-text"><p>The government <a href="http://pib.nic.in/newsite/PrintRelease.aspx?relid=124600" target="_blank">is pushing for this reform</a>, but progress depends on state capacity and commitment.</p>
+				<div class="info-text"><p>The government has introduced a <a href="https://dbtbharat.gov.in/" target="_blank">dedicated portal</a> tracking its efforts to transition to DBT.</p>
 				</div>
 
 			</div>
@@ -289,14 +299,16 @@
 
 				<div class="first">
 
-				<h2 class="name" id="red">Deregulate Fertilizer Pricing</h2>
+				<h2 class="name red">Deregulate Fertilizer Pricing</h2>
 				<p class="status">Incomplete</p>
 				<p class="difficulty">DIFFICULTY: High</p>
 				<p class="desc">Deregulating fertilizer subsidies will lower government subsidies, increase private investment, and reduce over-fertilization that can erode soil viability.
+				<i class="fa fa-play"></i>
 	</p>
 				</div>
 
 				<div class="info-text"><p>On 5/13/15 <a href="http://pmindia.gov.in/en/news_updates/approval-to-comprehensive-new-urea-policy-2015/" target="_blank">the government announced</a> a new four-year urea policy that will continue the price regulation regime.</p>
+					<iframe width="100%" height="80%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/269118131&amp;color=69696c&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 				</div>
 
 			</div>
@@ -309,18 +321,19 @@
 
 				<div class="first">
 
-					<h2 class="name" id="gray">Allow more than 50% foreign investment in Insurance</h2>
+					<h2 class="name gray">Allow more than 50% foreign investment in Insurance</h2>
 					<p class="status">In Progress</p>
 					<p class="difficulty">DIFFICULTY: High</p>
-					<p class="desc">Allow foreign investors to own a majority stake in life and non-life insurance firms.
+					<p class="desc">Allow foreign investors to own a majority stake in life and non-life insurance firms.<i class="fa fa-line-chart"></i>
 	</p>
-	<i class="fa fa-line-chart"></i>
+
 				</div>
 
 				<div class="info-text">
 
-					<p>In his February 29 <a href="http://indiabudget.nic.in/ub2016-17/bs/bs.pdf">Budget Speech</a> Finance Minister Jaitley announced that FDI in insurance will be automatically allowed up to the sectoral cap of 49%.  </p>
+					<p>The 2016 Consolidated <a href="http://dipp.nic.in/sites/default/files/FDI_Circular_2016%282%29.pdf">FDI Policy Circular</a> allows up to 49% investment in insurance through the automatic route. </p>
 					<a class="fancybox" rel="group" href="img/insurance.jpg"><img src="img/insurance.jpg" style="width: 74%;border: 2px solid #69696C;"/></a>
+
 
 				</div>
 
@@ -334,16 +347,15 @@
 
 				<div class="first">
 
-					<h2 class="name" id="gray">Allow more than 50% foreign investment in Defense</h2>
+					<h2 class="name gray">Allow more than 50% foreign investment in Defense</h2>
 					<p class="status">In Progress</p>
 					<p class="difficulty">DIFFICULTY: Medium</p>
-					<p class="desc">Allow foreign investors to own a majority stake in defense production firms.</p>
-					<i class="fa fa-play"></i>
+					<p class="desc">Allow foreign investors to own a majority stake in defense production firms.<i class="fa fa-play"></i></p>
 				</div>
 
 				<div class="info-text">
 
-					<p>DIPP <a href="http://dipp.nic.in/English/acts_rules/Press_Notes/pn12_2015.pdf"> Press Note 12 </a>, makes approval of FDI up to 49% automatic. The government may authorize higher levels of investment when it provides access to technology.</p> <iframe width="100%" height="80%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/269117441&amp;color=69696c&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+					<p>The Ministry of Defence rejected the <a href="http://www.defensenews.com/articles/india-rejects-dcns-proposal-to-locally-produce-api-sub-tech" target="_blank">first-ever proposal</a> to establish a 100% foreign-owned defense manufacturer in India.</p> <iframe width="100%" height="80%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/269117441&amp;color=69696c&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 				</div>
 
@@ -357,7 +369,7 @@
 
 				<div class="first">
 
-					<h2 class="name" id="blue">Allow more than 50% foreign investment in Railways</h2>
+					<h2 class="name blue">Allow more than 50% foreign investment in Railways</h2>
 					<p class="status">Complete</p>
 					<p class="difficulty">DIFFICULTY: Low</p>
 					<p class="desc">Allowing foreign investors to own a majority stake in the railway-related businesses will encourage much-needed investment in infrastructure.</p>
@@ -367,7 +379,7 @@
 
 				<div class="info-text">
 
-					<p>DIPP <a href="http://dipp.nic.in/English/acts_rules/Press_Notes/pn8_2014.pdf" target="_blank">Press Note 8</a> (2014), issued 8/27/2014, opened most of the railways sector to 100 percent FDI.  </p>
+					<p>DIPP <a href="http://dipp.nic.in/sites/default/files/pn8_2014_1.pdf" target="_blank">Press Note 8</a> (2014), issued 8/27/2014, opened most of the railways sector to 100 percent FDI.  </p>
 
 				</div>
 
@@ -378,15 +390,19 @@
 
 
 			<div class="policy services market">
-
-
-					<h2 class="name" id="red">Allow foreign lawyers to practice in India</h2>
+				<div class="first">
+					<h2 class="name red">Allow foreign lawyers to practice in India</h2>
 					<p class="status">Incomplete</p>
 					<p class="difficulty">DIFFICULTY: High</p>
 					<p class="desc">Allowing foreign law firms to establish offices and practice law in India will lower barriers to doing business in India.</p>
+				</div>
 
+				<div class="info-text">
+					<p>Prime Minister Modi has <a href="https://www.facebook.com/etnow/videos/1665735786801294/" target="_blank">reportedly requested</a> the Ministry of Law and Justice to prepare a draft regulation that would open the Indian legal market to foreign lawyers.</p>
 
-			</div>
+				</div>
+
+		</div>
 
 
 			<!-- ALLOW FOREIGN INVESTMENT IN MORE CONSTRUCTION -->
@@ -396,7 +412,7 @@
 
 				<div class="first">
 
-					<h2 class="name" id="blue">Allow foreign investment in more construction projects</h2>
+					<h2 class="name blue">Allow foreign investment in more construction projects</h2>
 					<p class="status">Complete</p>
 					<p class="difficulty">DIFFICULTY: Low</p>
 					<p class="desc">Relax the rules specifically governing foreign investment in construction projects, including minimum built-up space and lock-in periods.
@@ -406,7 +422,7 @@
 
 				<div class="info-text">
 
-					<p>DIPP <a href="http://dipp.nic.in/English/acts_rules/Press_Notes/pn12_2015.pdf"> Press Note 12</a> removed almost all restrictions on FDI in construction, including minimum project size, and reduced the lock-in period for capital to three years (or as soon as trunk infrastructure is completed, whichever comes first).</p>
+					<p>DIPP <a href="http://dipp.nic.in/sites/default/files/pn12_2015%20%281%29.pdf"> Press Note 12</a> removed almost all restrictions on FDI in construction, including minimum project size, and reduced the lock-in period for capital to three years (or as soon as trunk infrastructure is completed, whichever comes first).</p>
 
 				</div>
 
@@ -420,11 +436,21 @@
 
 			<div class="policy retail services food market">
 
-					<h2 class="name" id="gray">Reduce restrictions on foreign investment in multi-brand retail</h2>
+				<div class="first">
+
+					<h2 class="name gray">Reduce restrictions on foreign investment in multi-brand retail</h2>
 					<p class="status">In Progress</p>
 					<p class="difficulty">DIFFICULTY: Medium</p>
-					<p class="desc">FDI in multi-brand retail was <a href="http://dipp.nic.in/English/acts_rules/Press_Notes/pn1_2012.pdf" target="_blank">opened in September 2012</a>. But the rules governing foreign investment — minimum investment size, sourcing rules, and location — have so far precluded investment in this sector.
+					<p class="desc">FDI was <a href="http://dipp.nic.in/English/acts_rules/Press_Notes/pn1_2012.pdf" target="_blank">opened in Sept. 2012</a>. But rules governing foreign investment — minimum investment size, sourcing rules, and location — have precluded investment in this sector.<i class="fa fa-play"></i>
 			</p>
+
+		</div>
+
+		<div class="info-text">
+
+<iframe width="100%" height="80%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/269118501&amp;color=69696c&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+		</div>
 
 
 			</div>
@@ -437,7 +463,7 @@
 			<div class="policy retail services food market">
 					<div class="first">
 
-					<h2 class="name" id="gray">Reduce restrictions on foreign investment in single-brand retail</h2>
+					<h2 class="name gray">Reduce restrictions on foreign investment in single-brand retail</h2>
 					<p class="status">In Progress</p>
 					<p class="difficulty">DIFFICULTY: Medium</p>
 					<p class="desc">FDI in single-brand retail was <a href="http://dipp.nic.in/English/acts_rules/Press_Notes/pn1_2012.pdf"> opened </a> in September 2012. However, foreign firms must source 30% of what they sell from local manufacturers.
@@ -448,7 +474,7 @@
 
 	        	<div class="info-text">
 
-					<p>DIPP <a href="http://dipp.nic.in/English/acts_rules/Press_Notes/pn12_2015.pdf"> Press Note 12 </a> automatically allows up to 49% FDI in single-brand retail; government approval is required for further investment. Brands where FDI is greater than 51% must source 30% of their products from India. The government may  relax this rule for brands offering cutting-edge technology.</p>
+					<p><a href="http://dipp.nic.in/sites/default/files/pn5_2016.pdf" target="_blank">Press Note 5 of 2016</a> allows FDI up to 100% via the government approval route, but requires that 30% of goods sold in the first 5 years be manufactured in India. This period is tolled 3 years for 'cutting edge' technology.</p>
 
 				</div>
 
@@ -462,7 +488,7 @@
 
 	        <div class="first">
 
-				<h2 class="name" id="gray">Allow more than 50% foreign investment in direct retail e-commerce</h2>
+				<h2 class="name gray">Allow more than 50% foreign investment in direct retail e-commerce</h2>
 				<p class="status">In Progress</p>
 				<p class="difficulty">DIFFICULTY: Low</p>
 				<p class="desc">While FDI is <a href="http://dipp.nic.in/English/Policies/FDI_Circular_01_2013.pdf" target="_blank">allowed</a> in business-to-business e-commerce, and in e-commerce that uses a marketplace model, the sector is still <a href="http://dipp.nic.in/English/Discuss_paper/Discussion_paper_ecommerce_07012014.pdf" target="_blank">closed</a> to FDI when companies sell directly to consumers. </p>
@@ -471,7 +497,7 @@
 
 	        <div class="info-text">
 
-					<p><a href="http://dipp.nic.in/English/acts_rules/Press_Notes/pn3_2016.pdf" target="_blank">Press Note 3 of 2016</a> clarified that FDI is not allowed in business-to-consumer e-commerce, unless items are all being sold under a single brand and meet local-content requirements.</p>
+					<p><a href="http://dipp.nic.in/sites/default/files/pn3_2016_0.pdf" target="_blank">Press Note 3 of 2016</a> clarified that FDI is not allowed in business-to-consumer e-commerce, unless items are all being sold under a single brand and meet local-content requirements.</p>
 
 				</div>
 
@@ -485,7 +511,7 @@
 
 				<div class="first">
 
-					<h2 class="name" id="blue">Fully open the coal mining sector to private/foreign investment</h2>
+					<h2 class="name blue">Fully open the coal mining sector to private/foreign investment</h2>
 					<p class="status">Complete</p>
 					<p class="difficulty">DIFFICULTY: Medium</p>
 					<p class="desc">Coal mining for public sale was previously the exclusive right of government-owned “Coal India” and its subsidiaries.
@@ -507,12 +533,18 @@
 
 			<div class="policy industry energy services retail">
 
+				<div class="first">
 
-					<h2 class="name" id="red">Relax government controls over corporate downsizing</h2>
-					<p class="status">Incomplete</p>
+					<h2 class="name red">Relax government controls over corporate downsizing</h2>
+					<p class="status">In Progress</p>
 					<p class="difficulty">DIFFICULTY: High</p>
 					<p class="desc">India’s Industrial Disputes Act sets a floor of 100 employees after which government permission is required to lay off workers.  Some firms choose to remain below this level, giving up growth opportunities, in order to retain flexibility.</p>
 
+				</div>
+
+				<div class="info-text">
+					<p>On March 16, 2018, the Ministry of Labour <a href="https://labour.gov.in/sites/default/files/FTE%20Final%20Notification.pdf" target="_blank">relaxed rules</a> for fixed-term (contract) employees, allowing such labor in all sectors.</p>
+				</div>
 
 			</div>
 
@@ -524,7 +556,7 @@
 
 				<div class="first">
 
-					<h2 class="name" id="gray">Stop forcing banks to lend to “priority sectors”</h2>
+					<h2 class="name gray">Stop forcing banks to lend to “priority sectors”</h2>
 					<p class="status">In Progress</p>
 					<p class="difficulty">DIFFICULTY: Medium</p>
 					<p class="desc">Banks are required to direct 40% of loans to "priority sectors", including agriculture, small businesses, education, and housing.  This slows growth by reducing capital available for the fastest-growing industries.</p>
@@ -532,9 +564,7 @@
 				</div>
 
 				<div class="info-text">
-
-					<p>On April 7 2016 <a href="https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10339&Mode=0" target="_blank">RBI put into effect a new scheme</a> that allows banks to trade priority lending certificates, thus avoiding the requirement that they lend in sectors where they have little expertise or interest.</p>
-
+					<p>On May 10, 2018, the RBI <a href="https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=11274&Mode=0" target="_blank">slightly relaxed</a> Priority Sector Lending rules for Priority (Urban) Cooperative Banks.</p>
 				</div>
 
 			</div>
@@ -547,7 +577,7 @@
 
 				<div class="first">
 
-					<h2 class="name" id="gray">Establish processes for thoughtful financial regulations</h2>
+					<h2 class="name gray">Establish processes for thoughtful financial regulations</h2>
 					<p class="status">In Progress</p>
 					<p class="difficulty">DIFFICULTY: Medium</p>
 					<p class="desc">In 2013, the Financial Sector Legislative Reforms Commission called for stronger rules for regulatory interventions.  This includes clearly stating the purpose of new regulations, mandatory notice & comment periods, and impact studies.
@@ -557,7 +587,7 @@
 
 				<div class="info-text">
 
-					<p>The 2016 <a href="http://indiabudget.nic.in/ub2016-17/fb/bill.pdf">Finance Bill</a> amends the RBI Act to establish a Monetary Policy Committee with 3 members from RBI and 3 appointed by the government.</p>
+					<p>The Ministry of Finance recently solicited <a href="http://dea.gov.in/sites/default/files/PressReleaseFRA261216.pdf" target="_blank">comments</a> on a <a href="http://dea.gov.in/sites/default/files/Report_TaskForce_FRA_26122016.pdf" target="_blank">Task Force Report</a> proposing the structure of a new Financial Redress Agency (FRA). First recommended by the FSLC, the FRA that will act as a consumer regulator of the financial services industry. </p>
 
 				</div>
 
@@ -571,17 +601,19 @@
 
 				<div class="first">
 
-					<h2 class="name" id="gray">Make it easier to for states to use eminent domain to purchase land</h2>
+					<h2 class="name gray">Make it easier to for states to use eminent domain to purchase land</h2>
 					<p class="status">In Progress</p>
 					<p class="difficulty">DIFFICULTY: High</p>
 					<p class="desc">The current law governing eminent domain requires that states obtain approval from at least 80% of residents before buying land, making it difficult to find plots for industry and infrastructure.
+						<i class="fa fa-play"></i>
 	</p>
 
 				</div>
 
 				<div class="info-text">
 
-					<p>The Lok Sabha <a href="http://www.prsindia.org/uploads/media/Land and R and R/LARR, 2015 as passed by LS.pdf"> passed </a> a new land acquisition act, but the government has indicated it may not take up the issue in the Rajya Sabha. </p>
+					<p>The new <a href="http://www.prsindia.org/uploads/media/Land%20and%20R%20and%20R/LARR%20(2nd%20A)%20Bill,%202015.pdf" target="_blank">national land acquisition law</a>, although it passed in the Lok Sabha, failed in the Rajya Sabha, and the government is no longer making this issue a legislative priority.</p>
+					<iframe width="100%" height="80%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/269117920&amp;color=69696c&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 				</div>
 
@@ -595,7 +627,7 @@
 
 				<div class="first">
 
-					<h2 class="name" id="blue">Extend the expiration date of industrial licenses</h2>
+					<h2 class="name blue">Extend the expiration date of industrial licenses</h2>
 					<p class="status">Complete</p>
 					<p class="difficulty">DIFFICULTY: Low</p>
 					<p class="desc">Onerous licensing is one aspect of India’s difficult “doing business” environment.  Extending the validity of industrial licenses will decrease the frequency businesses will need to undertake this exercise.
@@ -606,7 +638,7 @@
 
 				<div class="info-text">
 
-					<p>DIPP <a href="http://dipp.nic.in/English/acts_rules/Press_Notes/pn9_2014.pdf" target="_blank">Press Note 9 (2014)</a>, issued on 12/20/2014, increased the maximum validity of an industrial license from two years to seven years. </p>
+					<p>DIPP <a href="http://dipp.nic.in/sites/default/files/pn9_2014_1.pdf" target="_blank">Press Note 9 (2014)</a>, issued on 12/20/2014, increased the maximum validity of an industrial license from two years to seven years. </p>
 
 				</div>
 
@@ -620,7 +652,7 @@
 
 	        <div class="first">
 
-					<h2 class="name" id="red">Make it quicker and easier for companies to go through bankruptcy</h2>
+					<h2 class="name blue">Make it quicker and easier for companies to go through bankruptcy</h2>
 					<p class="status">Complete</p>
 					<p class="difficulty">DIFFICULTY: High</p>
 					<p class="desc">India’s laws do not allow for a quick resolution of dead companies. The long process of winding up bankrupt companies contributes to overall legal paralysis, and locks up assets and intellectual property that could be deployed elsewhere.</p>
@@ -630,7 +662,8 @@
 
 	        <div class="info-text">
 
-					<p>On 5/11/16 Parliament passed the <a href="http://www.prsindia.org/administrator/uploads/media/Bankruptcy/Bankruptcy%20Code%20as%20passed%20by%20LS.pdf">Insolvency and Bankruptcy Code 2015</a>, which provides a strict timeline for insolvency proceedings and creates new judicial entities to handle bankruptcy proceedings.</p>
+	        	<p>The <a href="http://www.livemint.com/Companies/m8bWS8Bwa8feTZiogSSCMM/First-bankruptcy-case-against-Innoventive-Industries-registe.html" target="_blank">first case</a> under the new Insolvency Code has begun in the Maharashtra High Court.</p>
+
 
 				</div>
 
@@ -642,12 +675,18 @@
 
 			<div class="policy telecom defense energy industry structure retail services">
 
-					<h2 class="name" id="red">Make it easier to start a business by offering one-stop shopping for clearances</h2>
+<div class="first">
+
+					<h2 class="name red">Offer one-stop shopping for clearances for new businesses</h2>
 					<p class="status">Incomplete</p>
 					<p class="difficulty">DIFFICULTY: Medium</p>
-					<p class="desc">The World Bank’s “Doing Business” <a href="http://www.doingbusiness.org/reports/~/media/GIAWB/Doing%20Business/Documents/Profiles/Regional/DB2015/DB15-South-Asia.pdf" target="_blank">report notes</a> that India requires 12.9 procedures to start a business—well above the South Asian average (7.9 procedures).
-	Link is the same as above.</p>
+					<p class="desc">The World Bank's <a href="http://www.doingbusiness.org/reports/~/media/WBG/DoingBusiness/Documents/Profiles/Regional/DB2017/SA.pdf" target="_blank">Ease of Doing Business Report 2017</a> notes that it requires 12.9 procedures to start a business in India, compared to the South Asia regional average of 8.1.<i class="fa fa-play"></i></p>
 
+</div>
+
+	<div class="info-text">
+<iframe width="100%" height="80%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/269118299&amp;color=69696c&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+</div>
 
 			</div>
 
@@ -657,10 +696,20 @@
 
 			<div class="policy telecom defense energy industry structure retail services">
 
-					<h2 class="name" id="red">Ensure that business owners can receive a permit in 10 days or less</h2>
+				<div class="first">
+
+					<h2 class="name red">Ensure that business owners can receive a permit in 10 days or less</h2>
 					<p class="status">Incomplete</p>
 					<p class="difficulty">DIFFICULTY: Medium</p>
-					<p class="desc">The World Bank’s “Doing Business” <a href="http://www.doingbusiness.org/reports/~/media/GIAWB/Doing%20Business/Documents/Profiles/Regional/DB2016/DB16-South-Asia.pdf" target="_blank">report notes</a> that it takes on average 29 days to start a business in India. That’s nearly double the South Asia average (15.7 days). The OECD average is 8.3 days.</p>
+					<p class="desc">According to the World Bank's <a href="http://www.doingbusiness.org/reports/~/media/WBG/DoingBusiness/Documents/Profiles/Regional/DB2017/SA.pdf" target="_blank">Ease of Doing Business Report 2017</a>, it takes 26 days to start a business, more than in any other country in South Asia.<i class="fa fa-line-chart"></i></p>
+
+				</div>
+
+				<div class="info-text">
+
+					<a class="fancybox" rel="group" href="img/permits.jpg"><img src="img/permits.jpg" style="width: 74%;border: 2px solid #69696C;"/></a>
+
+				</div>
 
 
 			</div>
@@ -673,7 +722,7 @@
 
 				<div class="first">
 
-					<h2 class="name" id="gray">Institute a mandatory 30-day "Notice & Comment" period for proposed regulation</h2>
+					<h2 class="name gray">Institute a mandatory 30-day "Notice & Comment" period for proposed regulation</h2>
 					<p class="status">In Progress</p>
 					<p class="difficulty">DIFFICULTY: Medium</p>
 					<p class="desc">A consistent, transparent regulatory environment gives businesses greater confidence.</p>
@@ -688,21 +737,6 @@
 
 			</div>
 
-
-			<!-- ALLOW CITIES TO ISSUE MUNICIPAL BONDS-->
-
-
-			<div class="policy structure money services">
-
-					<h2 class="name" id="red">Allow cities to issue municipal bonds to raise funds</h2>
-					<p class="status">Incomplete</p>
-					<p class="difficulty">DIFFICULTY: Medium</p>
-					<p class="desc">Creating the policy, legal, accounting, and reporting framework for local governments to issue municipal or project revenue bonds will spur the creation of this financing option.</p>
-
-
-			</div>
-
-
 			<!-- RAISE CEILING ON FOREIGN INSTITUTIONAL INVESTMENT -->
 
 
@@ -710,7 +744,7 @@
 
 	        <div class="first">
 
-					<h2 class="name" id="red">Raise the ceiling on foreign institutional investment in Indian companies</h2>
+					<h2 class="name red">Raise the ceiling on foreign institutional investment in Indian companies</h2>
 					<p class="status">Incomplete</p>
 					<p class="difficulty">DIFFICULTY: Low</p>
 					<p class="desc">The long-standing 10% limit on single institutional investors hinders investment in high-growth Indian companies. SEBI raising this threshold — even to 20% — will unlock significant liquidity for listed Indian companies.</p>
@@ -726,6 +760,24 @@
 
 	            </div>
 
+			<!-- Remove sectoral investment limits -->
+
+
+			<div class="policy industry">
+
+				<div class="first">
+
+				<h2 class="name blue">Remove sectoral investment limits</h2>
+				<p class="status">Complete</p>
+				<p class="difficulty">DIFFICULTY: Low</p>
+				<p class="desc">India historically reserved dozens of products and sectors for small and medium businesses. The rules prevented successful businesses manufacturing these goods from expanding and limited their access to capital.</p>
+
+				</div>
+
+				<div class="info-text"><p>On 4/10/2015 the government <a href="http://www.dcmsme.gov.in/publications/reserveditems/Gazette_india-15.pdf" target="_blank">removed</a> the last 20 products from the reserved list.</p>
+				</div>
+
+			</div>
 
 			<!-- CONDUCT TRANSPARENT AUCTIONS -->
 
@@ -734,18 +786,19 @@
 
 				<div class="first">
 
-					<h2 class="name" id="blue">Conduct transparent auctions of telecom spectrum</h2>
+					<h2 class="name blue">Conduct transparent auctions of telecom spectrum</h2>
 					<p class="status">Complete</p>
 					<p class="difficulty">DIFFICULTY: Medium</p>
 					<p class="desc">Government must conduct auctions in a way that allocations of the spectrum being auctioned off are transparent and create a barrier to participation.
+						<i class="fa fa-play"></i>
 	</p>
 
 				</div>
 
-
 				<div class="info-text">
 
-					<p>In March 2015 the government <a href="http://www.dot.gov.in/sites/default/files/u8/Provisional%20Auction%20results%20and%20court%20order.pdf" target="_blank">conducted a simultaneous auction</a> across several bands recently freed by the Ministry of Defence.  </p>
+					<p>India has now conducted multiple free and fair telecom auctions with no complaints from private-sector participants.</p>
+					<iframe width="100%" height="80%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/269118036&amp;color=69696c&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 				</div>
 
@@ -765,14 +818,14 @@
 		<a id="social-links" href="https://twitter.com/home?status=Check%20out%20the%20%40CSISIndiaChair's%20scorecard%20on%20Modi's%20economic%20reforms%20in%20India%20http%3A//indiareforms.csis.org"><img src="img/twitter.png" /></a>
 		<a id="social-links" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.csis.org/india/india.html"><img src="img/facebook.png" /></a>
 		&nbsp;&nbsp;
-		<a id="social-links" href="http://csis.informz.net/CSIS/profile.asp?fid=3578"><img src="img/email.png" /></a>
+		<a id="social-links" href="mailto:indiareforms@csis.org"><img src="img/email.png" /></a>
 	</p>
 
 <div id="method">
 
 	<p><strong>Methodology:</strong>To establish this list, CSIS first conducted a literature review, looking for the frequency that individual reforms were listed by business associations, prominent economists, and government agencies.  To refine the list, CSIS organized a series of workshops featuring experts from outside the Indian government who further refined the list and helped determine the difficulty of enacting. Feedback is welcome.</p>
 
-	<p style="text-align:center;"><a href="031516_india_reforms.pdf">Download a list of the reforms</a></p>
+	<p style="text-align:center;"><a href="20180625_india_reforms.pdf">Download a list of the reforms</a></p>
 </div>
 
 <div id="feedback-form"><iframe src="https://docs.google.com/forms/d/1NuEea9lFHHUniaG9R2naUFEgMF3sN6WKMSSL3UQEG8A/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></div>
@@ -782,14 +835,17 @@
 
 
 <div id="copyright">
+	<p>India Reforms is a product of the <a href="https://www.csis.org/programs/dracopoulos-ideas-lab" target="_blank">Andreas C. Dracopoulos iDeas Lab</a>, the in-house digital, multimedia, and design agency at the Center for Strategic and International Studies.</p>
 
-	<p>© The Center for Strategic and International Studies 2015 | <a href="#csis">Back to top</a></p>
+	<p>© The Center for Strategic and International Studies <span class="copyright-year"></span> | <a href="https://www.csis.org/privacy-policy" target="_blank" rel="nofollow">Privacy Policy</a> | <a href="#csis">Back to top</a></p>
 
 </div>
 
 		<script type="text/javascript">
-
 $( document ).ready( function() {
+	// Update Year
+	$('.copyright-year').text(new Date().getFullYear())
+
   // init Isotope
   var $container = $('.policycontainer').isotope({
     itemSelector: '.policy',
@@ -800,7 +856,6 @@ $( document ).ready( function() {
       difficulty: '.difficulty'
     }
   });
-
   // filter functions
   var filterFns = {
     // show if number is greater than 50
@@ -814,7 +869,6 @@ $( document ).ready( function() {
       return name.match( /ium$/ );
     }
   };
-
   // bind filter button click
   $('#filters').on( 'click', 'button', function() {
     var filterValue = $( this ).attr('data-filter');
@@ -822,13 +876,11 @@ $( document ).ready( function() {
     filterValue = filterFns[ filterValue ] || filterValue;
     $container.isotope({ filter: filterValue });
   });
-
   // bind sort button click
   $('#sorts').on( 'click', 'button', function() {
     var sortByValue = $(this).attr('data-sort-by');
     $container.isotope({ sortBy: sortByValue });
   });
-
   // change is-checked class on buttons
   $('.button-group').each( function( i, buttonGroup ) {
     var $buttonGroup = $( buttonGroup );
@@ -837,17 +889,13 @@ $( document ).ready( function() {
       $( this ).addClass('is-checked');
     });
   });
-
 });
-
-
 		</script>
 
 	<script>
 	$(function() {
 	  $('a[href*=#]:not([href=#])').click(function() {
 	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-
 	      var target = $(this.hash);
 	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 	      if (target.length) {
